@@ -40,6 +40,8 @@
   height: 40px;
   width: 45px;
   margin: 3px;
+  margin-right: 20px;
+
 }
 
 #nav-left > a {
@@ -69,6 +71,11 @@
     color: rgb(153, 153, 153);
 }
 
+.searchbar {
+    width: 100%;
+    margin-right: 0;
+}
+
 #timer {
     display: flex;
     height: 100%;
@@ -85,3 +92,15 @@
 #dashboard-tabs.active {
     background-color: $bright-yellow;
 }
+
+.logout-nav {
+    border-left: 1px solid black;
+}
+
+    // .home {
+    //     margin-right: 125px;
+    // }
+
+    .space {
+        width: 125px;
+    }
