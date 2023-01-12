@@ -138,7 +138,7 @@ class TaskForm extends React.Component {
                       onChange={this.update("hour")}
                       type="text"
                       placeholder="hr"
-                      value={this.state.hour || ""}
+                      value={this.state.hour || 0}
                     />
                   </div>
                   <div className="duration-min-container">
@@ -147,7 +147,7 @@ class TaskForm extends React.Component {
                       onChange={this.update("min")}
                       type="text"
                       placeholder="min"
-                      value={this.state.min || ""}
+                      value={this.state.min || 0}
                     />
                   </div>
 
@@ -157,7 +157,7 @@ class TaskForm extends React.Component {
                       onChange={this.update("sec")}
                       type="text"
                       placeholder="sec"
-                      value={this.state.sec || ""}
+                      value={this.state.sec || 0}
                     />
                   </div>
                 </div>
